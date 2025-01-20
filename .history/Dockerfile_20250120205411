@@ -25,7 +25,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 COPY . /var/www/html
 
 # Copier le fichier de configuration Nginx
-COPY nginx.conf /etc/nginx/nginx.conf  
+COPY nginx.conf /etc/nginx/nginx.conf  # Assurez-vous de copier le bon fichier nginx.conf
 
 # Définir le répertoire de travail
 WORKDIR /var/www/html
