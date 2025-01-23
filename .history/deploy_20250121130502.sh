@@ -1,4 +1,4 @@
-#!/bin/bash
+# /bin/bash
 
 # Installez les dépendances nécessaires pour MongoDB
 apt-get update && apt-get install -y libssl-dev libcurl4-openssl-dev
